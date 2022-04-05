@@ -11,8 +11,8 @@ public class Demo1 {
 		a = 20;
 		sname = "Rahul";
 		
-		System.out.println(a);
-		System.out.println(sname);
+		System.out.println("The value of a is " + a);
+		System.out.println("The student name is " + sname);
 	
 	}
 

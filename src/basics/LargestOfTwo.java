@@ -14,8 +14,6 @@ public class LargestOfTwo {
 			System.out.println("B is the largest : " + b);
 		}
 		
-		
-
 	}
 
 }
