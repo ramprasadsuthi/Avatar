@@ -13,7 +13,7 @@ public class LargestOfTwo {
 		} else if(b > a) {
 			System.out.println("B is the largest : " + b);
 		} else {
-			System.out.println("Both A & B are equal : " + a , " - " + b);
+			System.out.println("Both A & B are equal : " + a " - " + b);
 		}
 		
 	}
