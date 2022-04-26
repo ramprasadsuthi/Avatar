@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Failed suite [ERP Stock Accounting]]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Login Module(failed)(failed)">
+    <classes>
+      <class name="testNGScripts.TG_HomePage">
+        <methods>
+          <include name="TC_8_VerifyAdminUserIsAbleToAccessTheUOMPage"/>
+          <include name="launch_ERP_Application"/>
+          <include name="close_ERP_Application"/>
+          <include name="TC_6_VerifyAdminUserIsAbleToAccessTheCustomersPage"/>
+        </methods>
+      </class> <!-- testNGScripts.TG_HomePage -->
+      <class name="testNGScripts.TG_Login">
+        <methods>
+          <include name="TC_4_Reset"/>
+          <include name="TC_2_Logout"/>
+          <include name="close_ERP_Application"/>
+          <include name="TC_1_LoginwithValidCredentials"/>
+          <include name="TC_3_InvalidLogin"/>
+          <include name="launch_ERP_Application"/>
+        </methods>
+      </class> <!-- testNGScripts.TG_Login -->
+    </classes>
+  </test> <!-- Login Module(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [ERP Stock Accounting]] -->

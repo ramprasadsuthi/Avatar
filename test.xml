@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ERP Stock Accounting" parallel="methods" thread-count="1" >
+  <test name="Login Module">
+    <classes>
+      <class name="testNGScripts.TG_Login"/>
+      <class name="testNGScripts.TG_HomePage"/>
+     </classes>
+  </test>
+</suite>
